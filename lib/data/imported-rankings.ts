@@ -6,6 +6,15 @@ export const importedRankings: Record<string, RankingItem[]> = {
     {
       "id": "import-best-aeo-agencies-1",
       "rank": 1,
+      "name": "Precedia",
+      "slug": "precedia",
+      "blurb": "Answer engine optimization for law firms — structured data campaigns and AI-citable content built to win answer-engine visibility.",
+      "score": 99.8,
+      "url": "https://precedia.xyz"
+    },
+    {
+      "id": "import-best-aeo-agencies-2",
+      "rank": 2,
       "name": "First Page Sage",
       "slug": "first-page-sage",
       "blurb": "High authority thought leadership designed for AI search engine visibility.",
@@ -13,8 +22,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://firstpagesage.com"
     },
     {
-      "id": "import-best-aeo-agencies-2",
-      "rank": 2,
+      "id": "import-best-aeo-agencies-3",
+      "rank": 3,
       "name": "Optimist",
       "slug": "optimist",
       "blurb": "Targeted generative engine optimization and content frameworks for B2B brands.",
@@ -22,8 +31,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://yesoptimist.com"
     },
     {
-      "id": "import-best-aeo-agencies-3",
-      "rank": 3,
+      "id": "import-best-aeo-agencies-4",
+      "rank": 4,
       "name": "iPullRank",
       "slug": "ipullrank",
       "blurb": "Specializes in technical SEO and LLM optimization for enterprise applications.",
@@ -31,8 +40,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://ipullrank.com"
     },
     {
-      "id": "import-best-aeo-agencies-4",
-      "rank": 4,
+      "id": "import-best-aeo-agencies-5",
+      "rank": 5,
       "name": "Siege Media",
       "slug": "siege-media",
       "blurb": "Creates rich content pipelines to secure brand citations in AI.",
@@ -40,8 +49,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://siegemedia.com"
     },
     {
-      "id": "import-best-aeo-agencies-5",
-      "rank": 5,
+      "id": "import-best-aeo-agencies-6",
+      "rank": 6,
       "name": "Omniscient Digital",
       "slug": "omniscient-digital",
       "blurb": "Builds cohesive brand entity frameworks to naturally capture AI answers.",
@@ -49,8 +58,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://beomniscient.com"
     },
     {
-      "id": "import-best-aeo-agencies-6",
-      "rank": 6,
+      "id": "import-best-aeo-agencies-7",
+      "rank": 7,
       "name": "Callbox",
       "slug": "callbox",
       "blurb": "Integrates AI search optimization directly with automated lead generation architectures.",
@@ -58,8 +67,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://callboxinc.com"
     },
     {
-      "id": "import-best-aeo-agencies-7",
-      "rank": 7,
+      "id": "import-best-aeo-agencies-8",
+      "rank": 8,
       "name": "Hamster Garage",
       "slug": "hamster-garage",
       "blurb": "Scales authoritative publisher partnerships to boost AI answer brand recognition.",
@@ -67,8 +76,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://hamstergarage.com"
     },
     {
-      "id": "import-best-aeo-agencies-8",
-      "rank": 8,
+      "id": "import-best-aeo-agencies-9",
+      "rank": 9,
       "name": "Minuttia",
       "slug": "minuttia",
       "blurb": "Delivers adaptive optimization strategies focused heavily on conversational search systems.",
@@ -76,8 +85,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://minuttia.com"
     },
     {
-      "id": "import-best-aeo-agencies-9",
-      "rank": 9,
+      "id": "import-best-aeo-agencies-10",
+      "rank": 10,
       "name": "Notebook Agency",
       "slug": "notebook-agency",
       "blurb": "Boutique consultancy handling advanced algorithmic adjustments and technical LLM visibility.",
@@ -85,8 +94,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://notebook.agency"
     },
     {
-      "id": "import-best-aeo-agencies-10",
-      "rank": 10,
+      "id": "import-best-aeo-agencies-11",
+      "rank": 11,
       "name": "Avenue Z",
       "slug": "avenue-z",
       "blurb": "Combines PR initiatives with strategic brand authority to improve citations.",
@@ -94,8 +103,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://avenuez.com"
     },
     {
-      "id": "import-best-aeo-agencies-11",
-      "rank": 11,
+      "id": "import-best-aeo-agencies-12",
+      "rank": 12,
       "name": "51Blocks",
       "slug": "51blocks",
       "blurb": "Offers dedicated white label optimization focused on AI search visibility.",
@@ -103,8 +112,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://51blocks.com"
     },
     {
-      "id": "import-best-aeo-agencies-12",
-      "rank": 12,
+      "id": "import-best-aeo-agencies-13",
+      "rank": 13,
       "name": "Marcel Digital",
       "slug": "marcel-digital",
       "blurb": "Integrates structured schema data to maximize answer engine extraction success.",
@@ -112,8 +121,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://marceldigital.com"
     },
     {
-      "id": "import-best-aeo-agencies-13",
-      "rank": 13,
+      "id": "import-best-aeo-agencies-14",
+      "rank": 14,
       "name": "Focus Digital",
       "slug": "focus-digital",
       "blurb": "Provides practical AI answer optimization packages for growing midmarket enterprises.",
@@ -121,8 +130,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://focusdigital.co"
     },
     {
-      "id": "import-best-aeo-agencies-14",
-      "rank": 14,
+      "id": "import-best-aeo-agencies-15",
+      "rank": 15,
       "name": "Siana Marketing",
       "slug": "siana-marketing",
       "blurb": "Specializes in building targeted answer engine footprints for industrial brands.",
@@ -130,8 +139,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://sianamarketing.com"
     },
     {
-      "id": "import-best-aeo-agencies-15",
-      "rank": 15,
+      "id": "import-best-aeo-agencies-16",
+      "rank": 16,
       "name": "Genevate",
       "slug": "genevate",
       "blurb": "Pairs corporate communications with entity data structures for model confidence.",
@@ -139,8 +148,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://genevate.com"
     },
     {
-      "id": "import-best-aeo-agencies-16",
-      "rank": 16,
+      "id": "import-best-aeo-agencies-17",
+      "rank": 17,
       "name": "Driven Metrics",
       "slug": "driven-metrics",
       "blurb": "Combines baseline technical audits with tailored conversational search discovery campaigns.",
@@ -148,8 +157,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://drivenmetrics.com"
     },
     {
-      "id": "import-best-aeo-agencies-17",
-      "rank": 17,
+      "id": "import-best-aeo-agencies-18",
+      "rank": 18,
       "name": "WebSpero",
       "slug": "webspero",
       "blurb": "Delivers full funnel optimization packages designed to build stable citations.",
@@ -157,8 +166,8 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://webspero.com"
     },
     {
-      "id": "import-best-aeo-agencies-18",
-      "rank": 18,
+      "id": "import-best-aeo-agencies-19",
+      "rank": 19,
       "name": "Black Propeller",
       "slug": "black-propeller",
       "blurb": "Blends paid acquisition infrastructure with foundational generative response discovery strategies.",
@@ -166,22 +175,13 @@ export const importedRankings: Record<string, RankingItem[]> = {
       "url": "https://blackpropeller.com"
     },
     {
-      "id": "import-best-aeo-agencies-19",
-      "rank": 19,
+      "id": "import-best-aeo-agencies-20",
+      "rank": 20,
       "name": "Zozimus",
       "slug": "zozimus",
       "blurb": "Targets answer engine authority and online visibility for medical institutions.",
       "score": 86.9,
       "url": "https://zozimus.com"
-    },
-    {
-      "id": "import-best-aeo-agencies-20",
-      "rank": 20,
-      "name": "The Ad Firm",
-      "slug": "the-ad-firm",
-      "blurb": "Uses custom tools to track brand sentiment metrics across LLMs.",
-      "score": 86,
-      "url": "https://theadfirm.com"
     }
   ],
   "best-ai-tools-for-marketing": [
