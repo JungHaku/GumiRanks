@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getCategories, getRankingItems, groupCategories } from "@/lib/data/rankings";
 import { webSiteJsonLd } from "@/lib/jsonld";
 import { JsonLd } from "@/components/json-ld";
+import { GumiChat } from "@/components/gumi-chat";
 import { GUMI, SITE } from "@/lib/site";
 
 export const revalidate = 300;
@@ -35,17 +36,20 @@ export default async function HomePage() {
               Browse rankings
             </Link>
           </div>
-          <figure className="hero-mascot">
-            <Image
-              src={GUMI.image}
-              alt="Gumi, a friendly robot ranking assistant, waving hello"
-              width={420}
-              height={420}
-              priority
-              className="gumi-portrait"
-            />
-            <figcaption>Gumi · AI ranker with human assistance</figcaption>
-          </figure>
+          <div className="hero-side">
+            <figure className="hero-mascot">
+              <Image
+                src={GUMI.image}
+                alt="Gumi, a friendly robot ranking assistant, waving hello"
+                width={420}
+                height={420}
+                priority
+                className="gumi-portrait"
+              />
+              <figcaption>Gumi · AI ranker with human assistance</figcaption>
+            </figure>
+            <GumiChat />
+          </div>
         </div>
       </section>
 

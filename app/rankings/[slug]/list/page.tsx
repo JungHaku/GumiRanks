@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CATEGORY_DEFS } from "@/lib/data/categories";
 import { getCategoryBySlug, getRankingItems } from "@/lib/data/rankings";
-import { itemListJsonLd } from "@/lib/jsonld";
+import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/jsonld";
 import { JsonLd } from "@/components/json-ld";
 import { RankTable } from "@/components/rank-table";
 import { SITE } from "@/lib/site";
@@ -42,6 +42,17 @@ export default async function CategoryListPage({ params }: Props) {
           items,
           `${SITE.url}/rankings/${category.slug}/list`
         )}
+      />
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", url: SITE.url },
+          { name: "All rankings", url: `${SITE.url}/rankings` },
+          { name: category.name, url: `${SITE.url}/rankings/${category.slug}` },
+          {
+            name: "Full Top 20",
+            url: `${SITE.url}/rankings/${category.slug}/list`,
+          },
+        ])}
       />
       <p className="crumbs">
         <Link href="/rankings">All rankings</Link> /{" "}

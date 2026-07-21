@@ -22,6 +22,7 @@ export function Footer() {
         </div>
         <nav aria-label="Footer">
           <Link href="/rankings">All rankings</Link>
+          <Link href="/about">About & methodology</Link>
           <Link href="/login">Admin login</Link>
         </nav>
         <div>© {new Date().getFullYear()} {SITE.name}</div>

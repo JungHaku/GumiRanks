@@ -10,6 +10,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     { url: SITE.url, lastModified: now },
     { url: `${SITE.url}/rankings`, lastModified: now },
+    { url: `${SITE.url}/about`, lastModified: now },
     ...categories.flatMap((c) => [
       { url: `${SITE.url}/rankings/${c.slug}`, lastModified: now },
       { url: `${SITE.url}/rankings/${c.slug}/list`, lastModified: now },

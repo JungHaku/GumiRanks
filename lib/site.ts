@@ -8,6 +8,8 @@ export const SITE = {
   // Placeholder-content safety valve: while false, every page serves noindex
   // and robots.txt disallows crawling, so thin scaffold lists never get indexed.
   indexable: process.env.NEXT_PUBLIC_SITE_INDEXABLE === "true",
+  // GA4 measurement ID (G-XXXXXXXXXX). Analytics renders only when set.
+  gaId: process.env.NEXT_PUBLIC_GA_ID ?? "",
 };
 
 export const GUMI = {

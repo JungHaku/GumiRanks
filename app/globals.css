@@ -279,10 +279,134 @@ p a:hover,
   font-size: 0.95rem;
 }
 
-.hero-mascot {
+.hero-side {
   justify-self: end;
+  display: grid;
+  gap: 1rem;
+  width: min(100%, 26rem);
+}
+
+.hero-mascot {
   text-align: center;
   margin: 0;
+}
+
+/* ---------- gumi chat ---------- */
+
+.gumi-chat-open {
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  color: var(--ink);
+  padding: 0.8rem 1rem;
+  text-align: left;
+  transition: border-color 0.15s ease;
+}
+
+.gumi-chat-open:hover {
+  border-color: var(--accent);
+}
+
+.gumi-chat-open .beep {
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+}
+
+.gumi-chat {
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  display: grid;
+}
+
+.gumi-chat-head {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.gumi-chat-face {
+  border-radius: 50%;
+}
+
+.gumi-chat-close {
+  margin-left: auto;
+  font: inherit;
+  font-size: 1.2rem;
+  line-height: 1;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-faint);
+}
+
+.gumi-chat-close:hover {
+  color: var(--ink);
+}
+
+.gumi-chat-log {
+  max-height: 16rem;
+  overflow-y: auto;
+  padding: 0.9rem;
+  display: grid;
+  gap: 0.6rem;
+  align-content: start;
+}
+
+.gumi-msg {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  padding: 0.5rem 0.75rem;
+  max-width: 90%;
+}
+
+.gumi-msg.assistant {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  justify-self: start;
+}
+
+.gumi-msg.user {
+  background: var(--accent);
+  color: var(--paper);
+  justify-self: end;
+}
+
+.gumi-msg.typing {
+  color: var(--ink-faint);
+}
+
+.gumi-chat-form {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.65rem 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+
+.gumi-chat-form input {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.gumi-chat-form input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.gumi-chat-form .btn {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.85rem;
 }
 
 .gumi-portrait {
@@ -516,6 +640,36 @@ p a:hover,
 
 .page-body {
   padding: 1.2rem 0 3.5rem;
+}
+
+/* ---------- about ---------- */
+
+.about-body {
+  max-width: 70ch;
+}
+
+.about-mascot {
+  margin: 0 0 1.5rem;
+}
+
+.about-body section {
+  margin-bottom: 2rem;
+}
+
+.about-body h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-body p,
+.about-body ol {
+  color: var(--ink-soft);
+}
+
+.about-body ol {
+  padding-left: 1.3rem;
+  display: grid;
+  gap: 0.6rem;
 }
 
 .crumbs {
@@ -923,7 +1077,7 @@ p a:hover,
     gap: 1.75rem;
   }
 
-  .hero-mascot {
+  .hero-side {
     justify-self: center;
     order: -1;
   }
