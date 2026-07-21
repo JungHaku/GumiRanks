@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Archivo } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
+import Script from "next/script";
 import { Footer } from "@/components/footer";
 import { SITE } from "@/lib/site";
 
@@ -38,6 +39,11 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-CL7RGFTD14" strategy="afterInteractive" />
+        <Script id="ga4-init" strategy="afterInteractive">{`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CL7RGFTD14');`}</Script>
       </body>
     </html>
   );
